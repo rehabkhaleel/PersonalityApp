@@ -24,6 +24,13 @@ public partial class _Default : System.Web.UI.Page
             case "forest":
                 result = "You're calm and nature-loving.";
                 break;
+            case "sunset":
+                result = "You're strong and independent.";
+                break;
+            case "sky":
+                result = "You're creative and out-of-the-box.";
+                break;
+            
         }
 
         Response.Write("<script>alert('" + result + "');</script>");

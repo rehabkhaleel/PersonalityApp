@@ -50,6 +50,9 @@
             <asp:ImageButton ID="img2" runat="server" ImageUrl="~/Images/ocean.jpg" OnClick="ShowResult" CommandArgument="ocean" AlternateText="Ocean" />
             <asp:ImageButton ID="img3" runat="server" ImageUrl="~/Images/city.jpg" OnClick="ShowResult" CommandArgument="city" AlternateText="City" />
             <asp:ImageButton ID="img4" runat="server" ImageUrl="~/Images/forest.jpg" OnClick="ShowResult" CommandArgument="forest" AlternateText="Forest" />
+            <asp:ImageButton ID="img5" runat="server" ImageUrl="~/Images/sunset.jpg" OnClick="ShowResult" CommandArgument="sunset" AlternateText="Sunset" />
+            <asp:ImageButton ID="img6" runat="server" ImageUrl="~/Images/sky.jpg" OnClick="ShowResult" CommandArgument="sky" AlternateText="Sky" />
+
         </div>
     </form>
 </body>
